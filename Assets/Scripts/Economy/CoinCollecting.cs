@@ -8,12 +8,21 @@ namespace RPGDungeon.Economy
     {
         [SerializeField] private Text coinCountText;
 
-        [HideInInspector]private int coinCount = 0;
+        public int coinCount = 0;
+
+        public GameObject claimPrompt;
 
         public void CollectCoin()
         {
             coinCount++;
             coinCountText.text = coinCount.ToString();
+        }
+
+        void Update()
+        {
+            if(coinCount == 3){
+                claimPrompt.SetActive(true);
+            }
         }
     }
 }
