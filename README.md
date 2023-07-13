@@ -4,7 +4,7 @@ Groups:
   - Email: ghaly.razan@student.sgu.ac.id
     
 + Nathanael Owen Kamto
-  - Student ID:
+  - Student ID: 12102010
   - Email: nathanael.kamto@student.sgu.ac.id
 
 Project Title
