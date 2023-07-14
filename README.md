@@ -1,5 +1,3 @@
-uX4uRJg8hRKFzJ
-
 Groups:
 + Ghaly Kanz Razan
   - Student ID: 12102002
